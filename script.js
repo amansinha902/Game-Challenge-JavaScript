@@ -68,7 +68,7 @@ document.querySelector('.again').addEventListener(
         score = 20
         randomNumber = Math.floor(Math.random()*20)+1
         document.querySelector('.guess').value=''
-        document.querySelector('.number').inenrHTML='?'
+        document.querySelector('.number').innerHTML='?'
         document.querySelector('.message').innerHTML='Start guessing...'
         document.querySelector('.score').innerHTML=score
         document.querySelector('body').style.backgroundColor = '#222';
